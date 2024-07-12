@@ -1,0 +1,62 @@
+.questionCard{
+    max-width: 700px;
+    width: 100%;
+}
+
+.questionCard-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.questionCard button{
+    width: 50%;
+    height: 60px;
+    font-size: 17px;
+    margin: .3rem;
+    background-color: white;
+    border: 1px dotted lightgrey;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionCard button:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+.questionCard-timer{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    color: palevioletred;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#gec-buton {
+    background-color: lightpink;
+    color: palevioletred;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 4px;
+    width: 100px;
+    height: 50px;
+    position: fixed;
+  }
+  
+#gec-buton:hover {
+    background-color: #e0e0e0;
+    color: #444;
+    cursor: pointer;
+  }
+  

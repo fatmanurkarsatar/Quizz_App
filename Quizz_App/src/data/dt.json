@@ -1,0 +1,365 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "level": "easy",
+        "question": "React Nedir?",
+        "options": [
+          "a) Bir programlama dili",
+          "b) Bir veritabanı",
+          "c) Bir JavaScript kütüphanesi",
+          "d) Bir işletim sistemi"
+        ],
+        "answer": "c) Bir JavaScript kütüphanesi"
+      },
+      {
+        "id": 2,
+        "level": "easy",
+        "question": "JSX Nedir?",
+        "options": [
+          "a) Bir veritabanı",
+          "b) JavaScript içine HTML benzeri sözdizimini gömmenize olanak tanıyan bir uzantı",
+          "c) Bir CSS frameworkü",
+          "d) Bir tarayıcı"
+        ],
+        "answer": "b) JavaScript içine HTML benzeri sözdizimini gömmenize olanak tanıyan bir uzantı"
+      },
+      {
+        "id": 3,
+        "level": "easy",
+        "question": "React'te bir bileşen (component) nedir?",
+        "options": [
+          "a) Bir veritabanı",
+          "b) Bir programlama dili",
+          "c) Yeniden kullanılabilir bir UI parçası",
+          "d) Bir işletim sistemi"
+        ],
+        "answer": "c) Yeniden kullanılabilir bir UI parçası"
+      },
+      {
+        "id": 4,
+        "level": "easy",
+        "question": "React'te state nedir?",
+        "options": [
+          "a) Bileşenlerin durumunu yöneten JavaScript nesnesi",
+          "b) Bir HTML elemanı",
+          "c) CSS sınıfı",
+          "d) Bir API"
+        ],
+        "answer": "a) Bileşenlerin durumunu yöneten JavaScript nesnesi"
+      },
+      {
+        "id": 5,
+        "level": "easy",
+        "question": "React bileşenlerinde props nedir?",
+        "options": [
+          "a) Bir veritabanı",
+          "b) Bileşenler arası veri geçişini sağlayan özellikler",
+          "c) Bir CSS frameworkü",
+          "d) Bir tarayıcı eklentisi"
+        ],
+        "answer": "b) Bileşenler arası veri geçişini sağlayan özellikler"
+      },
+      {
+        "id": 6,
+        "level": "easy",
+        "question": "Bir React bileşeni nasıl oluşturulur?",
+        "options": [
+          "a) Bir HTML dosyası ile",
+          "b) Bir CSS dosyası ile",
+          "c) Bir JavaScript sınıfı veya fonksiyonu ile",
+          "d) Bir SQL sorgusu ile"
+        ],
+        "answer": "c) Bir JavaScript sınıfı veya fonksiyonu ile"
+      },
+      {
+        "id": 7,
+        "level": "easy",
+        "question": "React'te \"render\" fonksiyonu ne yapar?",
+        "options": [
+          "a) Bir veritabanı sorgusu çalıştırır",
+          "b) Kullanıcı arayüzünü tarayıcıya çizer",
+          "c) Bir CSS sınıfı ekler",
+          "d) Bir API çağrısı yapar"
+        ],
+        "answer": "b) Kullanıcı arayüzünü tarayıcıya çizer"
+      },
+      {
+        "id": 8,
+        "level": "easy",
+        "question": "React'te hangi metot bileşen doğduktan hemen sonra çalışır?",
+        "options": [
+          "a) componentDidMount",
+          "b) componentWillMount",
+          "c) componentDidUpdate",
+          "d) componentWillUnmount"
+        ],
+        "answer": "a) componentDidMount"
+      },
+      {
+        "id": 9,
+        "level": "easy",
+        "question": "React uygulamasında hangi komut yeni bir bileşen oluşturur?",
+        "options": [
+          "a) createElement",
+          "b) createComponent",
+          "c) newComponent",
+          "d) newElement"
+        ],
+        "answer": "a) createElement"
+      },
+      {
+        "id": 10,
+        "level": "easy",
+        "question": "React Router ne işe yarar?",
+        "options": [
+          "a) Stil tanımlamak",
+          "b) Bileşenler arasında gezinmeyi sağlamak",
+          "c) Veritabanı işlemlerini yönetmek",
+          "d) API çağrıları yapmak"
+        ],
+        "answer": "b) Bileşenler arasında gezinmeyi sağlamak"
+      },
+      {
+        "id": 11,
+        "level": "medium",
+        "question": "React'te bir bileşenin state'ini güncellemek için hangi yöntem kullanılır?",
+        "options": [
+          "a) setState()",
+          "b) updateState()",
+          "c) changeState()",
+          "d) modifyState()"
+        ],
+        "answer": "a) setState()"
+      },
+      {
+        "id": 12,
+        "level": "medium",
+        "question": "React'te Hook'lar hangi React sürümüyle tanıtıldı? ",
+        "options": [
+          "a) 15.0",
+          "b) 16.0",
+          "c) 16.8",
+          "d) 17.0"
+        ],
+        "answer": "c) 16.8 "
+      },
+      {
+        "id": 13,
+        "level": "medium",
+        "question": "useEffect Hook'u hangi amaçla kullanılır? ",
+        "options": [
+          "a) Bileşen state'ini güncellemek için",
+          "b) Bileşen side effect işlemlerini yönetmek için",
+          "c) Yeni bileşenler oluşturmak için",
+          "d) CSS stillerini uygulamak için"
+        ],
+        "answer": "b) Bileşen side effect işlemlerini yönetmek için"
+      },
+      {
+        "id": 14,
+        "level": "medium",
+        "question": " React'te PureComponent nedir? ",
+        "options": [
+          "a) Tüm bileşenlerin ebeveyn bileşeni",
+          "b) Sadece props değiştiğinde yeniden render edilen bileşen",
+          "c) CSS stillerini yönetmek için kullanılan bir sınıf",
+          "d) Bileşenlerin state'ini yönetmek için kullanılan bir araç"
+        ],
+        "answer": "b) Sadece props değiştiğinde yeniden render edilen bileşen"
+      },
+      {
+        "id": 15,
+        "level": "medium",
+        "question": " React bileşenlerinde 'key' prop'u neden kullanılır?",
+        "options": [
+          "a) Bileşenlerin stilini değiştirmek için ",
+          "b) Bileşenleri benzersiz bir şekilde tanımlamak için",
+          "c) API çağrıları yapmak için",
+          "d) Bileşenlerin state'ini yönetmek için"
+        ],
+        "answer": "b) Bileşenleri benzersiz bir şekilde tanımlamak için"
+      },
+      {
+        "id": 16,
+        "level": "medium",
+        "question": "React'te 'lifting state up' ne anlama gelir? ",
+        "options": [
+            "a) Bileşenlerin state'ini root bileşene taşımak",
+            "b) State'i bileşenlerin child bileşenlerine taşımak",
+            "c) State'i bileşenlerin yanına taşımak",
+            "d) State'i bileşenlerin arasına taşımak"
+        ],
+        "answer": "a) Bileşenlerin state'ini root bileşene taşımak"
+      },
+      {
+        "id": 17,
+        "level": "medium",
+        "question": "React'te Context API ne işe yarar?  ",
+        "options": [
+            "a) Bileşenler arasında global state yönetimi sağlar",
+            "b) Bileşenlerin stilini değiştirir",
+            "c) Bileşenler arasında event yönetimi sağlar",
+            "d) Bileşenlerin lifecycle metodlarını yönetir"
+        ],
+        "answer": "a) Bileşenler arasında global state yönetimi sağlar"
+      },
+      {
+        "id": 18,
+        "level": "medium",
+        "question": "React'te Fragment kullanımı ne işe yarar?  ",
+        "options": [
+           "a) Bir bileşen içinde çoklu öğeleri gruplamak",
+           "b) Bileşenleri yeniden render etmek",
+           "c) Bileşen state'ini güncellemek",
+           "d) Bileşenleri silmek"  
+        ],
+        "answer": "a) Bir bileşen içinde çoklu öğeleri gruplamak "
+      },
+      {
+        "id": 19,
+        "level": "medium",
+        "question": "React.memo ne için kullanılır? ",
+        "options": [
+            "a) Bileşenleri cache'lemek",
+            "b) Bileşenlerin yeniden render edilmesini önlemek",
+            "c) Bileşenler arasında event yönetimi sağlamak",
+            "d) Bileşenlerin stilini değiştirmek"
+        ],
+        "answer": "b) Bileşenlerin yeniden render edilmesini önlemek "
+      },
+      {
+        "id": 20,
+        "level": "medium",
+        "question": "React'te useReducer Hook'u ne zaman kullanılır? ",
+        "options": [
+           "a) Basit state yönetimi için",
+           "b) Kompleks state mantığını yönetmek için",
+           "c) API çağrıları yapmak için",
+           "d) CSS stillerini uygulamak için"
+        ],
+        "answer": "b) Kompleks state mantığını yönetmek için"
+      },
+      {
+        "id": 21,
+        "level": "hard",
+        "question": "React'te performans optimizasyonu için hangi teknik kullanılabilir ",
+        "options": [
+            "a) Bütün bileşenleri yeniden render etmek",
+            "b) Bileşenleri stateless yapmak",
+            "c) shouldComponentUpdate metodunu kullanmak",
+            "d) State'i sadece child bileşenlerde tutmak"
+        ],
+        "answer": "c) shouldComponentUpdate metodunu kullanmak"
+      },
+      {
+        "id": 22,
+        "level": "hard",
+        "question": "React'te Reconciliation süreci ne yapar? ",
+        "options": [
+            "a) Bileşenleri CSS ile stilize eder",
+            "b) Sanal DOM ile gerçek DOM arasındaki farkları hesaplayarak güncellemeleri en verimli şekilde yapar",
+            "c) Bileşenleri stateless hale getirir",
+            "d) State yönetimini sağlar"
+        ],
+        "answer": "b) Sanal DOM ile gerçek DOM arasındaki farkları hesaplayarak güncellemeleri en verimli şekilde yapar"
+      },
+      {
+        "id": 23,
+        "level": "hard",
+        "question": "React'te Higher-Order Components (HOC) nedir?",
+        "options": [
+            "a) Bir bileşeni başka bir bileşene dönüştüren fonksiyon",
+            "b) CSS stillerini yönetmek için kullanılan bir sınıf",
+            "c) Bileşen state'ini güncellemek için kullanılan bir metod",
+            "d) Bileşenler arasında event yönetimi sağlayan bir araç"
+        ],
+        "answer": "a) Bir bileşeni başka bir bileşene dönüştüren fonksiyon"
+      },
+      {
+        "id": 24,
+        "level": "hard",
+        "question": "React'te useCallback Hook'u ne işe yarar? ",
+        "options": [
+          "a) Fonksiyonları cache'leyerek performans optimizasyonu sağlar",
+          "b) API çağrıları yapmak için kullanılır",
+          "c) Bileşen state'ini günceller",
+          "d) CSS stillerini uygulamak için kullanılır"
+        ],
+        "answer": "a) Fonksiyonları cache'leyerek performans optimizasyonu sağlar"
+      },
+      {
+        "id": 25,
+        "level": "hard",
+        "question": "React'te Concurrent Mode ne sağlar?  ",
+        "options": [
+           "a) Bileşenlerin asenkron olarak render edilmesini sağlar",
+           "b) Bileşenleri stateless yapar",
+           "c) Bileşenleri senkronize eder",
+           "d) Bileşenlerin stilini değiştirir"
+        ],
+        "answer": "a) Bileşenlerin asenkron olarak render edilmesini sağlar"
+      },
+      {
+       "id": 26,
+        "level": "hard",
+        "question": "React'te Suspense ve lazy ne için kullanılır? ",
+        "options": [
+            "a) Bileşenlerin stilini değiştirmek için",
+            "b) Bileşenlerin asenkron olarak yüklenmesini sağlamak için",
+            "c) Bileşen state'ini güncellemek için",
+            "d) Bileşenler arasında event yönetimi sağlamak için"
+        ],
+        "answer": "b) Bileşenlerin asenkron olarak yüklenmesini sağlamak için" 
+      },
+      {
+       "id": 27,
+        "level": "hard",
+        "question": "React'te useLayoutEffect ile useEffect arasındaki fark nedir? ",
+        "options": [
+            "a) useLayoutEffect senkron çalışır, useEffect asenkron çalışır",
+            "b) useEffect senkron çalışır, useLayoutEffect asenkron çalışır",
+            "c) Her ikisi de asenkron çalışır",
+            "d) Her ikisi de senkron çalışır"
+        ],
+        "answer": "a) useLayoutEffect senkron çalışır, useEffect asenkron çalışır" 
+      },
+      {
+       "id": 28,
+        "level": "hard",
+        "question": "React'te Custom Hook nedir? ",
+        "options": [
+            "a) Özel stil tanımlamak için kullanılan fonksiyon",
+            "b) Bileşenler arasında state ve logic paylaşımını sağlayan özel fonksiyon",
+            "c) API çağrıları yapmak için kullanılan metod",
+            "d) Bileşen state'ini güncellemek için kullanılan araç"
+        ],
+        "answer": "b) Bileşenler arasında state ve logic paylaşımını sağlayan özel fonksiyon"  
+      },
+      {
+       "id": 29,
+        "level": "hard",
+        "question": "React Fiber nedir? ",
+        "options": [
+            "a) React'in stil kütüphanesi",
+            "b) React'in yeni render motoru",
+            "c) Bileşen state'ini yönetmek için kullanılan bir araç",
+            "d) API çağrıları yapmak için kullanılan bir metod"
+        ],
+        "answer": "b) React'in yeni render motoru"   
+      },
+      {
+        "id": 30,
+        "level": "hard",
+        "question": "React'te Code Splitting ne için kullanılır",
+        "options": [
+            "a) Uygulamayı daha küçük parçalara bölerek performans optimizasyonu sağlar",
+            "b) Bileşen state'ini günceller",
+            "c) CSS stillerini uygular",
+            "d) API çağrıları yapar"
+        ],
+        "answer": "a) Uygulamayı daha küçük parçalara bölerek performans optimizasyonu sağlar" 
+      }
+
+    ]
+  }
